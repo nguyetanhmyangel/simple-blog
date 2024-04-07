@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using SimpleBlog.Api;
 using SimpleBlog.Core.Domain.Identity;
 using SimpleBlog.Infrastructure.Contexts;
 
@@ -59,5 +60,8 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+//Seeding data
+app.MigrateDatabase();
 
 app.Run();

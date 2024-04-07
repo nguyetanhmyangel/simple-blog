@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SimpleBlog.Core.Domain.Contracts;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -6,10 +7,8 @@ namespace SimpleBlog.Core.Domain.Entities;
 
 [Table("Posts")]
 [Index(nameof(Slug), IsUnique = true)]
-public class Post
+public class Post : AuditableEntity<Guid>
 {
-    [Key]
-    public Guid Id { get; set; }
 
     [Required]
     [MaxLength(250)]
@@ -29,9 +28,6 @@ public class Post
     public string? Thumbnail { get; set; }
     public string? Content { get; set; }
 
-    [MaxLength(500)]
-    public Guid AuthorUserId { get; set; }
-
     [MaxLength(128)]
     public string? Source { get; set; }
 
@@ -42,8 +38,6 @@ public class Post
     public string? SeoDescription { get; set; }
 
     public int ViewCount { get; set; }
-    public DateTime DateCreated { get; set; }
-    public DateTime? DateModified { get; set; }
     public bool IsPaid { get; set; }
     public double RoyaltyAmount { get; set; }
     public PostStatus Status { get; set; }

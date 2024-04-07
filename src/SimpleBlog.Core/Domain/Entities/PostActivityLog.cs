@@ -1,13 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using SimpleBlog.Core.Domain.Contracts;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SimpleBlog.Core.Domain.Entities;
 
 [Table("PostActivityLogs")]
-public class PostActivityLog
+public class PostActivityLog : AuditableEntity<Guid>
 {
-    [Key]
-    public Guid Id { get; set; }
     public Guid PostId { get; set; }
 
     public PostStatus FromStatus { set; get; }
@@ -18,6 +17,4 @@ public class PostActivityLog
 
     [MaxLength(500)]
     public string? Note { set; get; }
-
-    public Guid UserId { get; set; }
 }

@@ -1,17 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Microsoft.EntityFrameworkCore;
+using SimpleBlog.Core.Domain.Contracts;
 using System.ComponentModel.DataAnnotations;
-using Microsoft.EntityFrameworkCore;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SimpleBlog.Core.Domain.Entities;
 
 [Table("Series")]
 [Index(nameof(Slug), IsUnique = true)]
 
-public class Series
+public class Series : AuditableEntity<Guid>
 {
-    [Key]
-    public Guid Id { get; set; }
-
     [MaxLength(250)]
     [Required]
     public required string Name { get; set; }
@@ -32,6 +30,4 @@ public class Series
     public string? Thumbnail { set; get; }
 
     public string? Content { get; set; }
-    public Guid AuthorUserId { get; set; }
-    public DateTime DateCreated { get; set; }
 }
