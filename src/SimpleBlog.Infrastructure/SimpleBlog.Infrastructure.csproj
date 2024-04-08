@@ -33,4 +33,8 @@
     <ProjectReference Include="..\SimpleBlog.Core\SimpleBlog.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="BasePattern\" />
+  </ItemGroup>
+
 </Project>
