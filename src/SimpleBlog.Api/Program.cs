@@ -2,15 +2,15 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SimpleBlog.Api;
 using SimpleBlog.Core.Domain.Identity;
+using SimpleBlog.Core.Repositories.Base;
 using SimpleBlog.Infrastructure.Contexts;
+using SimpleBlog.Infrastructure.Repositories.Base;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // get Connectiongstring 
 var configuration = builder.Configuration;
 var connectionString = configuration.GetConnectionString("DefaultConnection");
-
-// Add services to the container.
 
 //Config DB Context and ASP.NET Core Identity
 builder.Services.AddDbContext<SimpleBlogDbContext>(options =>
@@ -39,6 +39,10 @@ builder.Services.Configure<IdentityOptions>(options =>
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
     options.User.RequireUniqueEmail = false;
 });
+
+// Add services to the container.
+builder.Services.AddScoped(typeof(IRepository<,>), typeof(RepositoryBase<,>));
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //Default config for ASP.NET Core
 builder.Services.AddControllers();

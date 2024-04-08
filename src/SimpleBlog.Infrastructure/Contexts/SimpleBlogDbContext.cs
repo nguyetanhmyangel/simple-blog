@@ -21,6 +21,19 @@ public class SimpleBlogDbContext : IdentityDbContext<AppUser, AppRole, Guid>
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+        ////All Decimals will have 18,2 Range
+        //foreach (var property in builder.Model.GetEntityTypes()
+        //.SelectMany(t => t.GetProperties())
+        //.Where(p => p.ClrType == typeof(decimal) || p.ClrType == typeof(decimal?)))
+        //{
+        //    property.SetColumnType("decimal(18,2)");
+        //}
+        //base.OnModelCreating(builder);
+
+        // Customize the ASP.NET Identity model and override the defaults if needed.
+        // For example, you can rename the ASP.NET Identity table names and more.
+        // Add your customizations after calling base.OnModelCreating(builder);
+
         builder.Entity<IdentityUserClaim<Guid>>().ToTable("AppUserClaims").HasKey(x => x.Id);
 
         builder.Entity<IdentityRoleClaim<Guid>>().ToTable("AppRoleClaims")
@@ -33,15 +46,6 @@ public class SimpleBlogDbContext : IdentityDbContext<AppUser, AppRole, Guid>
 
         builder.Entity<IdentityUserToken<Guid>>().ToTable("AppUserTokens")
            .HasKey(x => new { x.UserId });
-
-        //All Decimals will have 18,2 Range
-        foreach (var property in builder.Model.GetEntityTypes()
-        .SelectMany(t => t.GetProperties())
-        .Where(p => p.ClrType == typeof(decimal) || p.ClrType == typeof(decimal?)))
-        {
-            property.SetColumnType("decimal(18,2)");
-        }
-        base.OnModelCreating(builder);
     }
 
     //public override async Task<int> SaveChangesAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default)
