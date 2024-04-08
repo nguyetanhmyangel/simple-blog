@@ -7,5 +7,5 @@ namespace SimpleBlog.Core.Repositories;
 public interface IPostRepository : IRepository<Post, Guid>
 {
     Task<List<Post>> GetPopularPostsAsync(int count);
-    Task<PagedResult<PostInListResponse>> GetPostsPagingAsync(string keyword, Guid? categoryId, int pageIndex = 1, int pageSize = 10);
+    Task<PagedResult<PostInListResponse>> GetPostsPagingAsync(string? keyword, Guid? categoryId, int pageIndex = 1, int pageSize = 10);
 }

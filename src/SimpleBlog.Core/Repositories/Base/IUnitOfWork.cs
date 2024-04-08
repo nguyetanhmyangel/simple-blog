@@ -1,7 +1,7 @@
 ﻿namespace SimpleBlog.Core.Repositories.Base;
 public interface IUnitOfWork
 {
-    //IPostRepository Posts { get; }
+    IPostRepository Posts { get; }
     //IPostCategoryRepository PostCategories { get; }
     //ISeriesRepository Series { get; }
     //ITransactionRepository Transactions { get; }
