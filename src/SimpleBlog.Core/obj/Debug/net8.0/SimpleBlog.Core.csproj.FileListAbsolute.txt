@@ -1,0 +1,13 @@
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\bin\Debug\net8.0\SimpleBlog.Core.deps.json
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\bin\Debug\net8.0\SimpleBlog.Core.dll
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\bin\Debug\net8.0\SimpleBlog.Core.pdb
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\SimpleBlog.Core.csproj.AssemblyReference.cache
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\SimpleBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\SimpleBlog.Core.AssemblyInfoInputs.cache
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\SimpleBlog.Core.AssemblyInfo.cs
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\SimpleBlog.Core.csproj.CoreCompileInputs.cache
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\SimpleBlog.Core.sourcelink.json
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\SimpleBlog.Core.dll
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\refint\SimpleBlog.Core.dll
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\SimpleBlog.Core.pdb
+D:\projects\net8\SimpleBlog\src\SimpleBlog.Core\obj\Debug\net8.0\ref\SimpleBlog.Core.dll

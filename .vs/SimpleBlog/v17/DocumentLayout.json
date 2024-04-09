@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\projects\\net8\\SimpleBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{98534D19-4F49-49B6-8491-36C32306CC61}|src\\SimpleBlog.Api\\SimpleBlog.Api.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98534D19-4F49-49B6-8491-36C32306CC61}|src\\SimpleBlog.Api\\SimpleBlog.Api.csproj|solutionrelative:src\\simpleblog.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98534D19-4F49-49B6-8491-36C32306CC61}|src\\SimpleBlog.Api\\SimpleBlog.Api.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.api\\filters\\validatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98534D19-4F49-49B6-8491-36C32306CC61}|src\\SimpleBlog.Api\\SimpleBlog.Api.csproj|solutionrelative:src\\simpleblog.api\\filters\\validatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98534D19-4F49-49B6-8491-36C32306CC61}|src\\SimpleBlog.Api\\SimpleBlog.Api.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.api\\filters\\swaggernullableparameterfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98534D19-4F49-49B6-8491-36C32306CC61}|src\\SimpleBlog.Api\\SimpleBlog.Api.csproj|solutionrelative:src\\simpleblog.api\\filters\\swaggernullableparameterfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A2448F-F307-4DB3-9926-32FC493E3863}|src\\SimpleBlog.Infrastructure\\SimpleBlog.Infrastructure.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.infrastructure\\seeds\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A2448F-F307-4DB3-9926-32FC493E3863}|src\\SimpleBlog.Infrastructure\\SimpleBlog.Infrastructure.csproj|solutionrelative:src\\simpleblog.infrastructure\\seeds\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A2448F-F307-4DB3-9926-32FC493E3863}|src\\SimpleBlog.Infrastructure\\SimpleBlog.Infrastructure.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.infrastructure\\repositories\\base\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A2448F-F307-4DB3-9926-32FC493E3863}|src\\SimpleBlog.Infrastructure\\SimpleBlog.Infrastructure.csproj|solutionrelative:src\\simpleblog.infrastructure\\repositories\\base\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A2448F-F307-4DB3-9926-32FC493E3863}|src\\SimpleBlog.Infrastructure\\SimpleBlog.Infrastructure.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A2448F-F307-4DB3-9926-32FC493E3863}|src\\SimpleBlog.Infrastructure\\SimpleBlog.Infrastructure.csproj|solutionrelative:src\\simpleblog.infrastructure\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.core\\repositories\\ipostrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|solutionrelative:src\\simpleblog.core\\repositories\\ipostrepository .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98534D19-4F49-49B6-8491-36C32306CC61}|src\\SimpleBlog.Api\\SimpleBlog.Api.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.api\\controllers\\adminapi\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98534D19-4F49-49B6-8491-36C32306CC61}|src\\SimpleBlog.Api\\SimpleBlog.Api.csproj|solutionrelative:src\\simpleblog.api\\controllers\\adminapi\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.core\\repositories\\base\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|solutionrelative:src\\simpleblog.core\\repositories\\base\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.core\\dtos\\createupdatepostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|solutionrelative:src\\simpleblog.core\\dtos\\createupdatepostrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.core\\dtos\\paged\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|solutionrelative:src\\simpleblog.core\\dtos\\paged\\pagedresultbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.core\\dtos\\paged\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|solutionrelative:src\\simpleblog.core\\dtos\\paged\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.core\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|solutionrelative:src\\simpleblog.core\\dtos\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.core\\dtos\\postinlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD132916-74F4-4978-A0FF-F9BA9E4E9C9A}|src\\SimpleBlog.Core\\SimpleBlog.Core.csproj|solutionrelative:src\\simpleblog.core\\dtos\\postinlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A2448F-F307-4DB3-9926-32FC493E3863}|src\\SimpleBlog.Infrastructure\\SimpleBlog.Infrastructure.csproj|d:\\projects\\net8\\simpleblog\\src\\simpleblog.infrastructure\\repositories\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A2448F-F307-4DB3-9926-32FC493E3863}|src\\SimpleBlog.Infrastructure\\SimpleBlog.Infrastructure.csproj|solutionrelative:src\\simpleblog.infrastructure\\repositories\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwaggerNullableParameterFilter.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Api\\Filters\\SwaggerNullableParameterFilter.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Api\\Filters\\SwaggerNullableParameterFilter.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Api\\Filters\\SwaggerNullableParameterFilter.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Api\\Filters\\SwaggerNullableParameterFilter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:01:30.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidateModel.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Api\\Filters\\ValidateModel.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Api\\Filters\\ValidateModel.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Api\\Filters\\ValidateModel.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Api\\Filters\\ValidateModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T10:01:20.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Infrastructure\\Seeds\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Infrastructure\\Seeds\\DataSeeder.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Infrastructure\\Seeds\\DataSeeder.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Infrastructure\\Seeds\\DataSeeder.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAAAcAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:23:16.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Api\\Controllers\\AdminApi\\PostController.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Api\\Controllers\\AdminApi\\PostController.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Api\\Controllers\\AdminApi\\PostController.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Api\\Controllers\\AdminApi\\PostController.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAA8wFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:16:36.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Repositories\\Base\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Core\\Repositories\\Base\\IUnitOfWork.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Repositories\\Base\\IUnitOfWork.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Core\\Repositories\\Base\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:11:16.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateUpdatePostRequest.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\CreateUpdatePostRequest.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Core\\Dtos\\CreateUpdatePostRequest.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\CreateUpdatePostRequest.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Core\\Dtos\\CreateUpdatePostRequest.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:09:07.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Api\\Program.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Api\\Program.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Api\\Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAFwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-07T11:59:29.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Infrastructure\\Repositories\\Base\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Infrastructure\\Repositories\\Base\\UnitOfWork.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Infrastructure\\Repositories\\Base\\UnitOfWork.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Infrastructure\\Repositories\\Base\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T07:18:22.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Infrastructure\\Repositories\\PostRepository.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Infrastructure\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Infrastructure\\Repositories\\PostRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T05:36:32.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostDto.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\PostDto.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Core\\Dtos\\PostDto.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\PostDto.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Core\\Dtos\\PostDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T05:29:37.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IPostRepository .cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Repositories\\IPostRepository .cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Core\\Repositories\\IPostRepository .cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Repositories\\IPostRepository .cs",
+              "RelativeToolTip": "src\\SimpleBlog.Core\\Repositories\\IPostRepository .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T05:23:37.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PostInListResponse.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\PostInListResponse.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Core\\Dtos\\PostInListResponse.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\PostInListResponse.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Core\\Dtos\\PostInListResponse.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T05:33:27.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\Paged\\PagedResult.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Core\\Dtos\\Paged\\PagedResult.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\Paged\\PagedResult.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Core\\Dtos\\Paged\\PagedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T02:09:44.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagedResultBase.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\Paged\\PagedResultBase.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Core\\Dtos\\Paged\\PagedResultBase.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Core\\Dtos\\Paged\\PagedResultBase.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Core\\Dtos\\Paged\\PagedResultBase.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T02:09:50.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Infrastructure\\Repositories\\Base\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "src\\SimpleBlog.Infrastructure\\Repositories\\Base\\RepositoryBase.cs",
+              "ToolTip": "D:\\projects\\net8\\SimpleBlog\\src\\SimpleBlog.Infrastructure\\Repositories\\Base\\RepositoryBase.cs",
+              "RelativeToolTip": "src\\SimpleBlog.Infrastructure\\Repositories\\Base\\RepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T05:23:24.885Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
