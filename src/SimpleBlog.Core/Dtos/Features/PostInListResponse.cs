@@ -2,7 +2,7 @@
 using SimpleBlog.Core.Domain.Entities;
 using System.ComponentModel.DataAnnotations;
 
-namespace SimpleBlog.Core.Dtos;
+namespace SimpleBlog.Core.Dtos.Features;
 public class PostInListResponse
 {
     public Guid Id { get; set; }

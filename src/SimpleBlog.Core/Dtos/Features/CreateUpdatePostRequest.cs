@@ -1,31 +1,32 @@
 ﻿using AutoMapper;
 using SimpleBlog.Core.Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 
-namespace SimpleBlog.Core.Dtos;
-public class PostDto : PostInListResponse
+namespace SimpleBlog.Core.Dtos.Features;
+public class CreateUpdatePostRequest
 {
+    public required string Name { get; set; }
+
+    public required string Slug { get; set; }
+
+    [MaxLength(500)]
+    public string? Description { get; set; }
+
+    public string? Thumbnail { get; set; }
     public Guid CategoryId { get; set; }
 
     public string? Content { get; set; }
-
-    public Guid AuthorUserId { get; set; }
 
     public string? Source { get; set; }
 
     public string? Tags { get; set; }
 
     public string? SeoDescription { get; set; }
-
-    public DateTime? DateModified { get; set; }
-    public bool IsPaid { get; set; }
-    public double RoyaltyAmount { get; set; }
-    public PostStatus Status { get; set; }
-
     public class AutoMapperProfiles : Profile
     {
         public AutoMapperProfiles()
         {
-            CreateMap<Post, PostDto>();
+            CreateMap<CreateUpdatePostRequest, Post>();
         }
     }
 }

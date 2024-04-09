@@ -1,12 +1,15 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SimpleBlog.Api;
+using SimpleBlog.Core.ConfigOptions;
 using SimpleBlog.Core.Domain.Identity;
-using SimpleBlog.Core.Dtos;
+using SimpleBlog.Core.Dtos.Features;
 using SimpleBlog.Core.Repositories.Base;
+using SimpleBlog.Core.Services;
 using SimpleBlog.Infrastructure.Contexts;
 using SimpleBlog.Infrastructure.Repositories;
 using SimpleBlog.Infrastructure.Repositories.Base;
+using SimpleBlog.Infrastructure.Services;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Reflection;
 
@@ -65,6 +68,13 @@ foreach (var service in services)
 
 // Config AutoMapper
 builder.Services.AddAutoMapper(typeof(PostInListResponse));
+
+//Authen and author
+builder.Services.Configure<JwtTokenSettings>(configuration.GetSection("JwtTokenSettings"));
+builder.Services.AddScoped<SignInManager<AppUser>, SignInManager<AppUser>>();
+builder.Services.AddScoped<UserManager<AppUser>, UserManager<AppUser>>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<RoleManager<AppRole>, RoleManager<AppRole>>();
 
 //Default config for ASP.NET Core
 builder.Services.AddControllers();

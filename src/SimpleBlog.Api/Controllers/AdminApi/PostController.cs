@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using SimpleBlog.Core.Domain.Entities;
-using SimpleBlog.Core.Dtos;
+using SimpleBlog.Core.Dtos.Features;
 using SimpleBlog.Core.Dtos.Paged;
 using SimpleBlog.Core.Repositories.Base;
 
