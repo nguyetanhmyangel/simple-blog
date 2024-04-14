@@ -13,9 +13,10 @@ describe('Page404Component', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-    imports: [FormModule, GridModule, ButtonModule, IconModule, Page404Component],
-    providers: [IconSetService]
-})
+      declarations: [ Page404Component ],
+      imports: [FormModule, GridModule, ButtonModule, IconModule],
+      providers: [IconSetService]
+    })
     .compileComponents();
   });
 

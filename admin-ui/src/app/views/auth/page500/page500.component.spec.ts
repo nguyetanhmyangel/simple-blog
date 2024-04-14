@@ -13,9 +13,10 @@ describe('Page500Component', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-    imports: [GridModule, ButtonModule, FormModule, IconModule, Page500Component],
-    providers: [IconSetService]
-})
+      declarations: [ Page500Component ],
+      imports: [GridModule, ButtonModule, FormModule, IconModule],
+      providers: [IconSetService]
+    })
     .compileComponents();
   });
 

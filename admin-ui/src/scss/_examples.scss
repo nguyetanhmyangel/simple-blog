@@ -1,5 +1,10 @@
-/* stylelint-disable declaration-no-important, scss/selector-no-redundant-nesting-selector */
-$enable-deprecation-messages: false; /* stylelint-disable-line scss/dollar-variable-default */
+.callout-info {
+  background-color: $light-50 !important;
+
+  @at-root .dark-theme & {
+    background-color: rgba(255, 255, 255, .1) !important;
+  }
+}
 
 .example {
   &:not(:first-child) {
@@ -7,16 +12,35 @@ $enable-deprecation-messages: false; /* stylelint-disable-line scss/dollar-varia
   }
 
   .tab-content {
-    background-color: var(--#{$prefix}tertiary-bg);
-    //background-color: rgba(var(--#{$prefix}tertiary-bg-rgb), var(--#{$prefix}bg-opacity, 1)) !important;
+    background-color: $light-50 !important;
+
+    @at-root .dark-theme & {
+      background-color: rgba(255, 255, 255, .1) !important;
+    }
   }
 
-  & + p {
+  code[class*="language-"],
+  pre[class*="language-"] {
+    font-size: .875rem !important;
+  }
+
+  :not(pre) > code[class*="language-"],
+  pre[class*="language-"] {
+    background: transparent;
+  }
+
+  & + p,
+  & + h2,
+  & + h3,
+  & + h4,
+  & + h5,
+  & + h6 {
     margin-top: 1.5rem;
   }
 
   // Components examples
-  .preview {
+  .preview,
+  .preview .col {
     + p {
       margin-top: 2rem;
     }
@@ -50,14 +74,10 @@ $enable-deprecation-messages: false; /* stylelint-disable-line scss/dollar-varia
     }
 
     // Buttons
-    .col > .btn,
-    .col-auto > .btn,
-    .d-md-block > .btn,
     > .btn,
     > .btn-group {
       margin: .25rem .125rem;
     }
-
     > .btn-toolbar + .btn-toolbar {
       margin-top: .5rem;
     }
@@ -97,13 +117,6 @@ $enable-deprecation-messages: false; /* stylelint-disable-line scss/dollar-varia
     .pagination {
       margin-top: .5rem;
       margin-bottom: .5rem;
-    }
-
-    .docs-example-modal {
-      .modal {
-        position: static;
-        display: block;
-      }
     }
   }
 }

@@ -9,17 +9,12 @@ import {
 } from '@angular/core';
 import { getStyle } from '@coreui/utils';
 import { ChartjsComponent } from '@coreui/angular-chartjs';
-import { RouterLink } from '@angular/router';
-import { IconDirective } from '@coreui/icons-angular';
-import { RowComponent, ColComponent, WidgetStatAComponent, TemplateIdDirective, ThemeDirective, DropdownComponent, ButtonDirective, DropdownToggleDirective, DropdownMenuDirective, DropdownItemDirective, DropdownDividerDirective } from '@coreui/angular';
 
 @Component({
-    selector: 'app-widgets-dropdown',
-    templateUrl: './widgets-dropdown.component.html',
-    styleUrls: ['./widgets-dropdown.component.scss'],
-    changeDetection: ChangeDetectionStrategy.Default,
-    standalone: true,
-    imports: [RowComponent, ColComponent, WidgetStatAComponent, TemplateIdDirective, IconDirective, ThemeDirective, DropdownComponent, ButtonDirective, DropdownToggleDirective, DropdownMenuDirective, DropdownItemDirective, RouterLink, DropdownDividerDirective, ChartjsComponent]
+  selector: 'app-widgets-dropdown',
+  templateUrl: './widgets-dropdown.component.html',
+  styleUrls: ['./widgets-dropdown.component.scss'],
+  changeDetection: ChangeDetectionStrategy.Default
 })
 export class WidgetsDropdownComponent implements OnInit, AfterContentInit {
 
@@ -87,9 +82,6 @@ export class WidgetsDropdownComponent implements OnInit, AfterContentInit {
     maintainAspectRatio: false,
     scales: {
       x: {
-        border: {
-          display: false,
-        },
         grid: {
           display: false,
           drawBorder: false
@@ -153,7 +145,6 @@ export class WidgetsDropdownComponent implements OnInit, AfterContentInit {
         case 1: {
           options.scales.y.min = -9;
           options.scales.y.max = 39;
-          options.elements.line.tension = 0;
           this.options.push(options);
           break;
         }
@@ -180,10 +171,8 @@ export class WidgetsDropdownComponent implements OnInit, AfterContentInit {
 }
 
 @Component({
-    selector: 'app-chart-sample',
-    template: '<c-chart type="line" [data]="data" [options]="options" width="300" #chart></c-chart>',
-    standalone: true,
-    imports: [ChartjsComponent]
+  selector: 'app-chart-sample',
+  template: '<c-chart type="line" [data]="data" [options]="options" width="300" #chart></c-chart>'
 })
 export class ChartSample implements AfterViewInit {
 
